@@ -58,3 +58,4 @@ C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po01\o
 C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po01\obj\Debug\net5.0\ref\WebApiTestCrud_Po01.dll
 C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po01\obj\Debug\net5.0\WebApiTestCrud_Po01.pdb
 C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po01\obj\Debug\net5.0\WebApiTestCrud_Po01.genruntimeconfig.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po01\obj\Debug\net5.0\WebApiTestCrud_Po01.csproj.AssemblyReference.cache
