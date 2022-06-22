@@ -27,11 +27,27 @@ namespace WebApiTestCrud_Po01.Controllers
         //    });
         //    return Ok(studentDtos);
         //}
-        [HttpGet("{id:int}")]
-        public IActionResult Get(int id)
+
+        //[HttpGet("{id:int}")]
+        //public IActionResult Get(int id)
+        //{
+        //    var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+        //    return Ok(student);
+        //}
+
+
+
+        [HttpGet("{id : int}")]
+        public IActionResult GetStudentDto(int id)
         {
-            var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            return Ok(student);
+            var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+            var studentDtos = studentFromDb.(student => new StudentDto 
+            { 
+                GradeID = student.GradeID,
+                StudentID = student.StudentID,
+                StudentName = student.StudentName,
+            });
+            return studentDtos;
         }
     }
 }
