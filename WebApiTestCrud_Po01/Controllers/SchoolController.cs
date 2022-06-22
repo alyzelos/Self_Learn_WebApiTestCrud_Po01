@@ -9,45 +9,52 @@ namespace WebApiTestCrud_Po01.Controllers
     public class SchoolController : Controller
     {
         private readonly ISchoolService _schoolService;
-
         public SchoolController(ISchoolService schoolService)
         {
             _schoolService = schoolService;
         }
-
-        //[HttpGet]
-        //public IActionResult Get()
-        //{
-        //    var studentsFromDb = _schoolService.GetStudentsFromDb();
-        //    var studentDtos = studentsFromDb.Select(student => new StudentDto
-        //    {
-        //        GradeID = student.GradeID,
-        //        StudentID = student.StudentID,
-        //        StudentName = student.StudentName,
-        //    });
-        //    return Ok(studentDtos);
-        //}
-
-        //[HttpGet("{id:int}")]
-        //public IActionResult Get(int id)
-        //{
-        //    var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-        //    return Ok(student);
-        //}
-
-
-
-        [HttpGet("{id : int}")]
-        public IActionResult GetStudentDto(int id)
+        [HttpGet]
+        public IActionResult Get()
         {
-            var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            var studentDtos = studentFromDb.(student => new StudentDto 
-            { 
+            var studentsFromDb = _schoolService.GetStudentsFromDb();
+            var studentDtos = studentsFromDb.Select(student => new StudentDto
+            {
                 GradeID = student.GradeID,
                 StudentID = student.StudentID,
                 StudentName = student.StudentName,
+                Height = student.Height,
             });
-            return studentDtos;
+            return Ok(studentDtos);
+            }
+                    // -> Method for getting information from DB by ID. 
+                    //-------------------------------------------------
+            //[HttpGet("{id:int}")]
+            //public IActionResult Get(int id)
+            //{
+            //    var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+            //    return Ok(student);
+            //}
+
+
+                    //->Method for gettin information from DB by ID & implementing DTO's.
+                    //-------------------------------------------------
+
+        [HttpGet("{id:int}")]
+        public IActionResult Get(int id)
+        {
+            var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+            var studentDtos = new StudentDto { GradeID = studentFromDb.GradeID, StudentID = studentFromDb.StudentID, StudentName = studentFromDb.StudentName, };
+            return Ok(studentDtos);
         }
+
+                        //->method for POST information into DB by ID & implementing DTO's
+                        //-------------------------------------------------
+
+                        //->method for POST information into DB by ID & implementing DTO's
+                        //-------------------------------------------------
+
+                        //->method for POST information into DB by ID & implementing DTO's
+                        //-------------------------------------------------
+
     }
 }
