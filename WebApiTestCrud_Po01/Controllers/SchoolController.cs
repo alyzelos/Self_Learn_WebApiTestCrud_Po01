@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using WebApiTestCrud_Po01.Controllers.DTOs;
+using WebApiTestCrud_Po01.Infrastructure.Model;
 
 namespace WebApiTestCrud_Po01.Controllers
 {
@@ -23,6 +24,11 @@ namespace WebApiTestCrud_Po01.Controllers
                 StudentID = student.StudentID,
                 StudentName = student.StudentName,
                 Height = student.Height,
+                Grade = new()
+                {
+                    GradeName = student.Grade.GradeName,
+                    Section = student.Grade.Section
+                }
             });
             return Ok(studentDtos);
             }
@@ -43,7 +49,15 @@ namespace WebApiTestCrud_Po01.Controllers
         public IActionResult Get(int id)
         {
             var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            var studentDtos = new StudentDto { GradeID = studentFromDb.GradeID, StudentID = studentFromDb.StudentID, StudentName = studentFromDb.StudentName, };
+            var studentDtos = new StudentDto
+            {
+                GradeID = studentFromDb.GradeID,
+                StudentID = studentFromDb.StudentID,
+                StudentName = studentFromDb.StudentName,
+                Grade = new ()
+                { GradeName = studentFromDb.Grade 
+                }
+            };
             return Ok(studentDtos);
         }
 

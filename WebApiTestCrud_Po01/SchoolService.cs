@@ -14,10 +14,9 @@ namespace WebApiTestCrud_Po01
         {
             _schoolContext = schoolContext;
         }
-
         public IEnumerable<Student> GetStudentsFromDb()
         {
-            var studentsFromDb = _schoolContext.Students.Include(s => s.Grade).ToList();
+            var studentsFromDb = _schoolContext.Students.Include(t => t.Grade).ToList();
             return studentsFromDb;
         }
     }
