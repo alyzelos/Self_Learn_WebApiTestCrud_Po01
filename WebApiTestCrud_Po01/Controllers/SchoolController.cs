@@ -49,16 +49,17 @@ namespace WebApiTestCrud_Po01.Controllers
         public IActionResult Get(int id)
         {
             var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            var studentDtos = new StudentDto
-            {
-                GradeID = studentFromDb.GradeID,
-                StudentID = studentFromDb.StudentID,
-                StudentName = studentFromDb.StudentName,
-                Grade = new ()
-                { GradeName = studentFromDb.Grade 
-                }
-            };
-            return Ok(studentDtos);
+
+            //var studentDtos = new StudentDto
+            //{
+            //    GradeID = studentFromDb.GradeID,
+            //    StudentID = studentFromDb.StudentID,
+            //    StudentName = studentFromDb.StudentName,
+            //    Grade = new ()
+            //    { GradeName = studentFromDb.Grade 
+            //    }
+            //};
+            return Ok(studentFromDb);
         }
 
                         //->method for POST information into DB by ID & implementing DTO's
