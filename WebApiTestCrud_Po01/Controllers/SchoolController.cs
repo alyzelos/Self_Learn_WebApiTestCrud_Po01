@@ -40,16 +40,12 @@ namespace WebApiTestCrud_Po01.Controllers
             //    var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
             //    return Ok(student);
             //}
-
-
-                    //->Method for gettin information from DB by ID & implementing DTO's.
-                    //-------------------------------------------------
-
+            //->Method for gettin information from DB by ID & implementing DTO's.
+            //-------------------------------------------------
         [HttpGet("{id:int}")]
         public IActionResult Get(int id)
         {
             var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-
             //var studentDtos = new StudentDto
             //{
             //    GradeID = studentFromDb.GradeID,
@@ -61,7 +57,6 @@ namespace WebApiTestCrud_Po01.Controllers
             //};
             return Ok(studentFromDb);
         }
-
                         //->method for POST information into DB by ID & implementing DTO's
                         //-------------------------------------------------
 
@@ -70,6 +65,5 @@ namespace WebApiTestCrud_Po01.Controllers
 
                         //->method for POST information into DB by ID & implementing DTO's
                         //-------------------------------------------------
-
     }
 }
