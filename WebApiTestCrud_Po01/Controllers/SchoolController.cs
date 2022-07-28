@@ -14,6 +14,7 @@ namespace WebApiTestCrud_Po01.Controllers
         {
             _schoolService = schoolService;
         }
+        #region Get Method
         [HttpGet]
         public IActionResult Get()
         {
@@ -32,16 +33,19 @@ namespace WebApiTestCrud_Po01.Controllers
             });
             return Ok(studentDtos);
             }
-                    // -> Method for getting information from DB by ID. 
-                    //-------------------------------------------------
-            //[HttpGet("{id:int}")]
-            //public IActionResult Get(int id)
-            //{
-            //    var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            //    return Ok(student);
-            //}
-            //->Method for gettin information from DB by ID & implementing DTO's.
-            //-------------------------------------------------
+        #endregion
+
+        #region GetById Method
+        // -> Method for getting information from DB by ID. 
+        //-------------------------------------------------
+        //[HttpGet("{id:int}")]
+        //public IActionResult Get(int id)
+        //{
+        //    var student = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+        //    return Ok(student);
+        //}
+        //->Method for gettin information from DB by ID & implementing DTO's.
+        //-------------------------------------------------
         [HttpGet("{id:int}")]
         public IActionResult Get(int id)
         {
@@ -58,13 +62,39 @@ namespace WebApiTestCrud_Po01.Controllers
             };
             return Ok(studentDtos);
         }
-                        //->method for POST information into DB by ID & implementing DTO's
-                        //-------------------------------------------------
+        #endregion
 
-                        //->method for POST information into DB by ID & implementing DTO's
-                        //-------------------------------------------------
 
-                        //->method for POST information into DB by ID & implementing DTO's
-                        //-------------------------------------------------
+        [HttpPut("{id:int}")]
+        public IActionResult Put(int id)
+        {
+            if(id == null)
+            {
+                return BadRequest("insert ID and try again.");
+            }
+            else
+
+
+
+            return NoContent();
+
+
+            #region DetailsGetMethod
+            //-initial get by id value 
+
+            //var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+            //var studentDtos = new StudentDto
+            //{
+            //    GradeID = studentFromDb.GradeID,
+            //    StudentID = studentFromDb.StudentID,
+            //    StudentName = studentFromDb.StudentName,
+            //    Grade = new()
+            //    {
+            //        GradeName = studentFromDb.Grade.GradeName
+            //    }
+            //};
+            //return Ok(studentDtos);
+            #endregion
+        }
     }
 }
