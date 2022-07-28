@@ -32,7 +32,7 @@ namespace WebApiTestCrud_Po01.Controllers
                 }
             });
             return Ok(studentDtos);
-            }
+        }
         #endregion
 
         #region GetById Method
@@ -64,15 +64,27 @@ namespace WebApiTestCrud_Po01.Controllers
         }
         #endregion
 
-
+        #region Put
         [HttpPut("{id:int}")]
         public IActionResult Put(int id)
         {
-            if(id == null)
+            if (id == null)
             {
                 return BadRequest("insert ID and try again.");
             }
+            var studentfromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+            if (studentfromDb == null)
+            {
+                return BadRequest("employee with id = " + id.ToString() + " was not found");
+            }
             else
+            {
+                var studentDto = studentfromDb{
+                    studentDto.StudentID = studentfromDb.StudentID,
+                
+                        
+                }
+            }
 
 
 
@@ -81,7 +93,8 @@ namespace WebApiTestCrud_Po01.Controllers
 
 
         }
-
+        #endregion
+        #region PostMethod
         [HttpPost("{id:int}")]
         public IActionResult Post(int id)
         {
@@ -94,26 +107,24 @@ namespace WebApiTestCrud_Po01.Controllers
 
 
                 return NoContent();
-
-
-
         }
 
+        #endregion
+        #region DeleteMethod
         [HttpDelete("{id:int}")]
         public IActionResult Delete(int id)
         {
-            if (id == null)
+            var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+            var studentDtos = new StudentDto
             {
-                return BadRequest("insert ID and try again.");
-            }
-            else
-
-
-
-                return NoContent();
-
-
-
+                GradeID = studentFromDb.GradeID,
+                StudentID = studentFromDb.StudentID,
+                StudentName = studentFromDb.StudentName,
+                Grade = new()
+                {
+                    GradeName = studentFromDb.Grade.GradeName,
+                    Section = studentFromDb.Grade.Section
+                }
+            };
+            studentDtos.Remove();
         }
-    }
-}
