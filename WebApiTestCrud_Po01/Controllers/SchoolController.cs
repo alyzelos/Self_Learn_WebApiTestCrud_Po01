@@ -79,22 +79,41 @@ namespace WebApiTestCrud_Po01.Controllers
             return NoContent();
 
 
-            #region DetailsGetMethod
-            //-initial get by id value 
 
-            //var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            //var studentDtos = new StudentDto
-            //{
-            //    GradeID = studentFromDb.GradeID,
-            //    StudentID = studentFromDb.StudentID,
-            //    StudentName = studentFromDb.StudentName,
-            //    Grade = new()
-            //    {
-            //        GradeName = studentFromDb.Grade.GradeName
-            //    }
-            //};
-            //return Ok(studentDtos);
-            #endregion
+        }
+
+        [HttpPost("{id:int}")]
+        public IActionResult Post(int id)
+        {
+            if (id == null)
+            {
+                return BadRequest("insert ID and try again.");
+            }
+            else
+
+
+
+                return NoContent();
+
+
+
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult Delete(int id)
+        {
+            if (id == null)
+            {
+                return BadRequest("insert ID and try again.");
+            }
+            else
+
+
+
+                return NoContent();
+
+
+
         }
     }
 }
