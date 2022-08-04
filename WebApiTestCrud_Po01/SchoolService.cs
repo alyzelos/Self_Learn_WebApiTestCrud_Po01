@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using WebApiTestCrud_Po01.Controllers.DTOs;
 using WebApiTestCrud_Po01.Infrastructure;
 using WebApiTestCrud_Po01.Infrastructure.Model;
 
@@ -19,8 +21,33 @@ namespace WebApiTestCrud_Po01
             var studentsFromDb = _schoolContext.Students.Include(t => t.Grade).ToList();
             return studentsFromDb;
         }
-        public IEnumerable<Student>DeleteStudentFromDb(int id)
+        public bool CreateStudent(StudentDto studentDto)
         {
+            if(_schoolContext.Students.Any(s=>s.StudentName == studentDto.StudentName))
+            {
+                throw new StudentException("student allready exists");
+            }
+            try
+            {
+                var student = new Student
+                {
+                    StudentName = studentDto.StudentName,
+                    Weight = studentDto.Weight,
+                    Height = studentDto.Height,
+                    Grade = new()
+                    {
+                        GradeName = studentDto.Grade.GradeName,
+                        Section = studentDto.Grade.Section
+                    }
+                };
+                _schoolContext.Students.Add(student);
+                var affectedRows = _schoolContext.SaveChanges();
+                return affectedRows == studentDto.StudentID + studentDto.GradeID;
+            }
+            catch(Exception ex)
+            {
+                throw new System.Exception("blabla bla CreateStudent error");
+            }
             
         }
     }

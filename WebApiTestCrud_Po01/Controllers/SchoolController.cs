@@ -62,70 +62,78 @@ namespace WebApiTestCrud_Po01.Controllers
             };
             return Ok(studentDtos);
         }
+
+
+
+
+
         #endregion
 
         #region Put
-        [HttpPut("{id:int}")]
-        public IActionResult Put(int id)
-        {
-            if (id == null)
-            {
-                return BadRequest("insert ID and try again.");
-            }
-            var studentfromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            if (studentfromDb == null)
-            {
-                return BadRequest("employee with id = " + id.ToString() + " was not found");
-            }
-            else
-            {
-                var studentDto = studentfromDb{
-                    studentDto.StudentID = studentfromDb.StudentID,
-                
-                        
-                }
-            }
+        //[HttpPut("{id:int}")]
+        //public IActionResult Put(int id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return BadRequest("insert ID and try again.");
+        //    }
+        //    var studentfromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+        //    if (studentfromDb == null)
+        //    {
+        //        return BadRequest("employee with id = " + id.ToString() + " was not found");
+        //    }
+        //    else
+        //    {
+        //        var studentDto = studentfromDb{
+        //            studentDto.StudentID = studentfromDb.StudentID,
+
+
+        //        }
+        //    }
 
 
 
-            return NoContent();
+        //    return NoContent();
 
 
 
-        }
+        //}
         #endregion
         #region PostMethod
-        [HttpPost("{id:int}")]
-        public IActionResult Post(int id)
+        [HttpPost]
+        public IActionResult Post(StudentDto student)
         {
-            if (id == null)
+            if (student.StudentID == null)
             {
-                return BadRequest("insert ID and try again.");
+                return BadRequest("insert info about the new lines and then try again.");
             }
-            else
-
-
-
-                return NoContent();
+            var created = _schoolService.CreateStudent(student);
+            if (created)
+            {
+                return Ok();
+            }
+            return NoContent();
         }
 
         #endregion
         #region DeleteMethod
-        [HttpDelete("{id:int}")]
-        public IActionResult Delete(int id)
-        {
-            var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
-            var studentDtos = new StudentDto
-            {
-                GradeID = studentFromDb.GradeID,
-                StudentID = studentFromDb.StudentID,
-                StudentName = studentFromDb.StudentName,
-                Grade = new()
-                {
-                    GradeName = studentFromDb.Grade.GradeName,
-                    Section = studentFromDb.Grade.Section
-                }
-            };
-            _schoolService
-            return Ok("removed");
-        }
+        //[HttpDelete("{id:int}")]
+        //public IActionResult Delete(int id)
+        //{
+        //    var studentFromDb = _schoolService.GetStudentsFromDb().FirstOrDefault(s => s.StudentID == id);
+        //    var studentDtos = new StudentDto
+        //    {
+        //        GradeID = studentFromDb.GradeID,
+        //        StudentID = studentFromDb.StudentID,
+        //        StudentName = studentFromDb.StudentName,
+        //        Grade = new()
+        //        {
+        //            GradeName = studentFromDb.Grade.GradeName,
+        //            Section = studentFromDb.Grade.Section
+        //        }
+        //    };
+        //    _schoolService
+        //    return Ok("removed");
+    }
+}
+#endregion
