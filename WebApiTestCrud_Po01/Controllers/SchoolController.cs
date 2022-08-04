@@ -126,5 +126,6 @@ namespace WebApiTestCrud_Po01.Controllers
                     Section = studentFromDb.Grade.Section
                 }
             };
-            studentDtos.Remove();
+            
+            return Ok("removed");
         }
