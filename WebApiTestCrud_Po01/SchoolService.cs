@@ -19,5 +19,9 @@ namespace WebApiTestCrud_Po01
             var studentsFromDb = _schoolContext.Students.Include(t => t.Grade).ToList();
             return studentsFromDb;
         }
+        public IEnumerable<Student>DeleteStudentFromDb(int id)
+        {
+            
+        }
     }
 }

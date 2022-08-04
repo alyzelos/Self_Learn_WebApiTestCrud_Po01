@@ -126,6 +126,6 @@ namespace WebApiTestCrud_Po01.Controllers
                     Section = studentFromDb.Grade.Section
                 }
             };
-            
+            _schoolService
             return Ok("removed");
         }
