@@ -108,11 +108,11 @@ namespace WebApiTestCrud_Po01.Controllers
                 return BadRequest("insert info about the new lines and then try again.");
             }
             var created = _schoolService.CreateStudent(student);
-            if (created)
+            if (created == false)
             {
-                return Ok();
+                return Ok("Value returned");
             }
-            return NoContent();
+            return NoContent(); 
         }
 
         #endregion
