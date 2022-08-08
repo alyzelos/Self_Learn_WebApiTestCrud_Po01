@@ -78,7 +78,25 @@ namespace WebApiTestCrud_Po01
             {
                 throw new System.Exception("blabla bla CreateStudent error");
             }
+            
 
+
+                public bool UpdateStudentThroughDTO(int id, Student student)
+        {
+            if(_schoolContext.Students.First(s=>s.StudentID ==student.StudentID))
+            {
+                throw new StudentException("Insert the id of the student to be removed");
+            }
+            try
+            {
+                //De pus ceva cod pe aici 
+            }
+            catch
+            {
+                throw new SystemException("if you are here, it failed");
+            }
+                
+        }
         }
     }
 }

@@ -8,5 +8,6 @@ namespace WebApiTestCrud_Po01
     {
         IEnumerable<Student> GetStudentsFromDb();
         bool CreateStudent(StudentDto studentDto);
+        bool UpdateStudentThroughDTO(int id, Student student);
     }
 }
