@@ -51,52 +51,58 @@ namespace WebApiTestCrud_Po01
             
         }
 
-        public bool RemoveStudent(Student student)
+        public bool UpdateStudentThroughDTO(int id, Student student)
         {
-            if (_schoolContext.Students.First(s => s.StudentID == student.StudentID )
-            {
-                throw new StudentException("Insert the Id of the Student to be removed");
-            }
-            try
-            {
-                var student = new Student
-                {
-                    StudentName = studentDto.StudentName,
-                    Weight = studentDto.Weight,
-                    Height = studentDto.Height,
-                    Grade = new()
-                    {
-                        GradeName = studentDto.Grade.GradeName,
-                        Section = studentDto.Grade.Section
-                    }
-                };
-                _schoolContext.Students.Add(student);
-                var affectedRows = _schoolContext.SaveChanges();
-                return affectedRows == studentDto.StudentID + studentDto.GradeID;
-            }
-            catch (Exception ex)
-            {
-                throw new System.Exception("blabla bla CreateStudent error");
-            }
-            
+            throw new NotImplementedException();
+        }
+
+        //public bool RemoveStudent(Student student)
+        //{
+        //    if (_schoolContext.Students.First(s => s.StudentID == student.StudentID)
+        //    {
+        //        throw new StudentException("Insert the Id of the Student to be removed");
+        //    }
+        //    try
+        //    {
+        //        var student = new Student
+        //        {
+        //            StudentName = studentDto.StudentName,
+        //            Weight = studentDto.Weight,
+        //            Height = studentDto.Height,
+        //            Grade = new()
+        //            {
+        //                GradeName = studentDto.Grade.GradeName,
+        //                Section = studentDto.Grade.Section
+        //            }
+        //        };
+        //        _schoolContext.Students.Add(student);
+        //        var affectedRows = _schoolContext.SaveChanges();
+        //        return affectedRows == studentDto.StudentID + studentDto.GradeID;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new System.Exception("blabla bla CreateStudent error");
+        //    }
+        //}
 
 
-                public bool UpdateStudentThroughDTO(int id, Student student)
-        {
-            if(_schoolContext.Students.First(s=>s.StudentID ==student.StudentID))
-            {
-                throw new StudentException("Insert the id of the student to be removed");
-            }
-            try
-            {
-                //De pus ceva cod pe aici 
-            }
-            catch
-            {
-                throw new SystemException("if you are here, it failed");
-            }
-                
-        }
-        }
+
+        //        public bool UpdateStudentThroughDTO(int id, Student student)
+        //{
+        //    if(_schoolContext.Students.First(s=>s.StudentID ==student.StudentID))
+        //    {
+        //        throw new StudentException("Insert the id of the student to be removed");
+        //    }
+        //    try
+        //    {
+        //        //De pus ceva cod pe aici 
+        //    }
+        //    catch
+        //    {
+        //        throw new SystemException("if you are here, it failed");
+        //    }
+
+        //}
+    }
     }
 }
