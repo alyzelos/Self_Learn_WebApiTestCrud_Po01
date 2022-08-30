@@ -70,7 +70,7 @@ namespace WebApiTestCrud_Po02
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+               
                 endpoints.MapDefaultControllerRoute();
             });
         }
