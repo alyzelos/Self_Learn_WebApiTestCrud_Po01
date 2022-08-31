@@ -70,3 +70,6 @@ C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\o
 C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\obj\Debug\net5.0\ref\WebApiTestCrud_Po02.dll
 C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\obj\Debug\net5.0\WebApiTestCrud_Po02.pdb
 C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\obj\Debug\net5.0\WebApiTestCrud_Po02.genruntimeconfig.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po02\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

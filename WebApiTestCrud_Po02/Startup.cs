@@ -36,10 +36,10 @@ namespace WebApiTestCrud_Po02
                 options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault;
             });
             services.AddRazorPages();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPITestCrud_Po02", Version = "v1" });
-            });
+            //services.AddSwaggerGen(c =>
+            //{
+            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPITestCrud_Po02", Version = "v1" });
+            //});
 
             services.AddScoped<IEmployeesService, EmployeesService>();
         }
@@ -50,8 +50,8 @@ namespace WebApiTestCrud_Po02
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swaggger.json", "employeeWebAPI V2"));
+                //app.UseSwagger();
+                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swaggger.json", "employeeWebAPI V2"));
             }
             else
             {

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiTestCrud_Po02.Controller
 {
-    [Route("{controller}")]
+    [System.Web.Http.Route("{controller}")]
     [ApiController]
-    public class EmployeesController : ControllerContext
+    public class EmployeesController : ApiController
     {
         private readonly IEmployeesService _employeesService;
 
@@ -17,11 +18,11 @@ namespace WebApiTestCrud_Po02.Controller
         {
             _employeesService = employeesService;
         }
-        [HttpGet]
+        [Microsoft.AspNetCore.Mvc.HttpGet]
         public IActionResult Get()
         {
             var employeesFromDb = _employeesService.GetEmployeesFromDb();
-            return OkResult(employeesFromDb);
+            return (IActionResult)Ok(employeesFromDb);
         }
     }
 }
