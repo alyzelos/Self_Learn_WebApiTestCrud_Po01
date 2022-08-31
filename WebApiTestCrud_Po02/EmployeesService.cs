@@ -16,10 +16,10 @@ namespace WebApiTestCrud_Po02
             _employeeContext = employeeContext;
         }
 
-        public IEnumerable<Employees> GetEmployeesFromDb()
+        public IEnumerable<Employee> GetEmployeesFromDb()
         {
             var employeesFromDb = _employeeContext.Employees.ToList();
-            return (IEnumerable<Employees>)employeesFromDb;
+            return (IEnumerable<Employee>)employeesFromDb;
         }
     }
 }

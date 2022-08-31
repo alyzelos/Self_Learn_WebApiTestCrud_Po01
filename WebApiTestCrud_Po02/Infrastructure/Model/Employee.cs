@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebApiTestCrud_Po02.Infrastructure.Model
 {
-    public class Employees
+    public class Employee
     {
         public int ID { get; set; }
         public string   FirstName { get; set; }

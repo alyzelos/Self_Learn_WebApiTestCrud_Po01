@@ -9,6 +9,6 @@ namespace WebApiTestCrud_Po02
 {
     public interface IEmployeesService
     {
-        IEnumerable<Employees> GetEmployeesFromDb();
+        IEnumerable<Employee> GetEmployeesFromDb();
     }
 }

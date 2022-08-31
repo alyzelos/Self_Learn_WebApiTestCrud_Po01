@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
@@ -11,7 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebApiTestCrud_Po02.Infrastructure.Model;
 using System.Text.Json.Serialization;
-
+using Microsoft.Extensions.DependencyInjection;
 
 namespace WebApiTestCrud_Po02
 {
@@ -37,10 +36,10 @@ namespace WebApiTestCrud_Po02
                 options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault;
             });
             services.AddRazorPages();
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "employeesWebApiTestRedon", Version = "V1" });
-            //});
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPITestCrud_Po02", Version = "v1" });
+            });
 
             services.AddScoped<IEmployeesService, EmployeesService>();
         }
@@ -51,8 +50,8 @@ namespace WebApiTestCrud_Po02
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                //app.UseSwagger();
-                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swaggger.json", "employeeWebAPI V2"));
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swaggger.json", "employeeWebAPI V2"));
             }
             else
             {
@@ -62,15 +61,14 @@ namespace WebApiTestCrud_Po02
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-               
                 endpoints.MapDefaultControllerRoute();
             });
         }
