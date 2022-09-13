@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace WebApiTestCrud_Po05.Infrastructure
 {
-    public class EmployeeContext
+    public class EmployeeContext : DbContext
+
     {
         
     }
