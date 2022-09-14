@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTestCrud_Po02", "WebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTestCrud_Po03", "WebApiTestCrud_Po03\WebApiTestCrud_Po03.csproj", "{3699A478-5BCF-4CAA-A9C7-13361D2B7A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTestCrud_Po04", "WebApiTestCrud_Po04\WebApiTestCrud_Po04.csproj", "{496C67C5-8790-4EF5-B125-1A3B2029028F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTestCrud_Po04", "WebApiTestCrud_Po04\WebApiTestCrud_Po04.csproj", "{496C67C5-8790-4EF5-B125-1A3B2029028F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTestCrud_Po05", "WebApiTestCrud_Po05\WebApiTestCrud_Po05.csproj", "{0C281F79-2838-47F9-9A0B-BBD96EA08694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTestCrud_Po05", "WebApiTestCrud_Po05\WebApiTestCrud_Po05.csproj", "{0C281F79-2838-47F9-9A0B-BBD96EA08694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTestCrud_Po06", "WebApiTestCrud_Po06\WebApiTestCrud_Po06.csproj", "{ACB03488-A201-411A-B6F0-D7F934FACA48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0C281F79-2838-47F9-9A0B-BBD96EA08694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C281F79-2838-47F9-9A0B-BBD96EA08694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C281F79-2838-47F9-9A0B-BBD96EA08694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB03488-A201-411A-B6F0-D7F934FACA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB03488-A201-411A-B6F0-D7F934FACA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB03488-A201-411A-B6F0-D7F934FACA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB03488-A201-411A-B6F0-D7F934FACA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

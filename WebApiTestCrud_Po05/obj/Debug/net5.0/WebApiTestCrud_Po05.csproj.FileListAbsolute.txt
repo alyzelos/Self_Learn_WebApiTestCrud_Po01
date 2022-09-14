@@ -1,0 +1,8 @@
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.csproj.AssemblyReference.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.AssemblyInfoInputs.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.AssemblyInfo.cs
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.csproj.CoreCompileInputs.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.RazorAssemblyInfo.cache
+C:\Users\Cosmin-AlinPOJAR\source\repos\WebApiTestCrud_Po01\WebApiTestCrud_Po05\obj\Debug\net5.0\WebApiTestCrud_Po05.RazorAssemblyInfo.cs
