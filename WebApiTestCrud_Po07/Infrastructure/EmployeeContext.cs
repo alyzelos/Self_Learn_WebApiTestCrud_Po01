@@ -13,10 +13,10 @@ namespace WebApiTestCrud_Po07.Infrastructure
     public class EmployeeContext : DbContext
     {
 
-        public static readonly LoggerFactory _myLoggerFactory = new(new[] { new DebugLoggerProvider() });
         public EmployeeContext(DbContextOptions<EmployeeContext> options) : base(options)
         { }
 
+        public static readonly LoggerFactory _myLoggerFactory = new(new[] { new DebugLoggerProvider() });
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLoggerFactory(_myLoggerFactory);
