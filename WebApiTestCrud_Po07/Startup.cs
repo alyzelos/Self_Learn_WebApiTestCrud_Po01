@@ -26,7 +26,7 @@ namespace WebApiTestCrud_Po07
             //injecting DBcontext configuration string
             services.AddDbContext<EmployeeContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("Default"));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
             //Adding configuration for not sending null values to JSON
             services.AddControllers().AddJsonOptions(options =>
