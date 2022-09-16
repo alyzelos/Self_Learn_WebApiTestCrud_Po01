@@ -56,7 +56,7 @@ namespace WebApiTestCrud_Po07
             app.UseHttpsRedirection();
             app.UseRouting();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
