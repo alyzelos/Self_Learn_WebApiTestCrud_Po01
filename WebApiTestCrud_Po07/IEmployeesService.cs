@@ -10,5 +10,7 @@ namespace WebApiTestCrud_Po07
     public interface IEmployeesService
     {
         IEnumerable<Employee> GetEmployeesFromDb();
+
+        //IEnumerable<Employee> CreateEmployee();
     }
 }
