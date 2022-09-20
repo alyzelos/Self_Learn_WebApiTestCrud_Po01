@@ -1683,6 +1683,23 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "WebApiTestCrud_Po06/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/WebApiTestCrud_Po06.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApiTestCrud_Po06.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6287,6 +6304,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "WebApiTestCrud_Po06/1.0.0": {
+      "type": "project",
+      "path": "../WebApiTestCrud_Po06/WebApiTestCrud_Po06.csproj",
+      "msbuildProject": "../WebApiTestCrud_Po06/WebApiTestCrud_Po06.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6295,7 +6317,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "WebApiTestCrud_Po06 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6324,7 +6347,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj": {
+              "projectPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
