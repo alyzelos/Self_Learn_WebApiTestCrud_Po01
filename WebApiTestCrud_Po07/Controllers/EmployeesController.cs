@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApiTestCrud_Po06.Infrastructure;
 using WebApiTestCrud_Po07.Infrastructure.Model;
 
 namespace WebApiTestCrud_Po07.Controllers
@@ -31,19 +32,30 @@ namespace WebApiTestCrud_Po07.Controllers
             var employeesFromDb = _employeesService.GetEmployeesFromDb().FirstOrDefault(s => s.ID == id);
             return Ok(employeesFromDb);
         }
-        
-        [HttpPost()]
-        public IActionResult Post(Employee employees )
-        {
-            var employeesFromDb = _employeesService.GetEmployeesFromDb().Where(s => s.FirstName == employees.FirstName);
+
+        //public IEnumerables<Employee> Get()
+        //{
+        //    var employeesFromDb = _employeesService.GetEmployeesFromDb().ToList();
+        //    {
+        //        return NotFound("the variable was not found")
+        //    }
+        //    return Ok();
 
 
-            return NoContent();
-        }
+        //}
 
-        //[HttpPut("{id:int}")]
+        //[HttpPost()]
+        //public IActionResult Post(Employee employees )
+        //{
+        //    var employeesFromDb = _employeesService.GetEmployeesFromDb().Where(s => s.FirstName == employees.FirstName);
 
-        //[HttpDelete("{id:int}")]
+
+        //    return NoContent();
+        //}
+
+        ////[HttpPut("{id:int}")]
+
+        ////[HttpDelete("{id:int}")]
 
     }
 }

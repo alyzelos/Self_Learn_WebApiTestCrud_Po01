@@ -2,8 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using WebApiTestCrud_Po06.Infrastructure;
 using WebApiTestCrud_Po06.Infrastructure.Model;
 
 namespace WebApiTestCrud_Po07.Controllers
@@ -19,8 +21,7 @@ namespace WebApiTestCrud_Po07.Controllers
             _employeesService = employeesService;
         }
 
-        [HttpPut]
-        public IActionResult Put(int id, [FromBody] Employee employee)
+        
 
     }
 }

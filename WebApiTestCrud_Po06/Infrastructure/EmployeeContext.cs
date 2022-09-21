@@ -6,7 +6,7 @@ namespace WebApiTestCrud_Po06.Infrastructure
 {
     public class EmployeeContext : DbContext
     {
-        private static readonly LoggerFactory _myLoggerFactory = new(new[] { new DebugLoggerProvider() });
+        private static readonly LoggerFactory _myLoggerFactory;
 
         public EmployeeContext(DbContextOptions<EmployeeContext> options) : base(options)
         { }
