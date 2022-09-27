@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JQqgVzJHw/pVahhlKy3bbl/31xOXpg5mOMSleqCK0Z3I1JW0MFjAm1kKg9ctYptXkz6iK7obUeRm0H4h6Jozow==",
+  "dgSpecHash": "cC7UcUoCgUiYQcXFsUx4zK0Lux0Ux2FdqFAmIDec8e4YV/vYKCZ1LJmZJeF+1qw8D9LQ+JA1zHUGKhhPTjVJ/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ptrutucea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }

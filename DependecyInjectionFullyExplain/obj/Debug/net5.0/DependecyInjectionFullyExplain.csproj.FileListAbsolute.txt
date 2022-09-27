@@ -1,0 +1,16 @@
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\DependecyInjectionFullyExplain.exe
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\DependecyInjectionFullyExplain.deps.json
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\DependecyInjectionFullyExplain.runtimeconfig.json
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\DependecyInjectionFullyExplain.runtimeconfig.dev.json
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\DependecyInjectionFullyExplain.dll
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\ref\DependecyInjectionFullyExplain.dll
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\bin\Debug\net5.0\DependecyInjectionFullyExplain.pdb
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.csproj.AssemblyReference.cache
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.AssemblyInfoInputs.cache
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.AssemblyInfo.cs
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.csproj.CoreCompileInputs.cache
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.dll
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\ref\DependecyInjectionFullyExplain.dll
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.pdb
+C:\Users\Ptrutucea\source\repos\Self_Learn_WebApiTestCrud_Po01\DependecyInjectionFullyExplain\obj\Debug\net5.0\DependecyInjectionFullyExplain.genruntimeconfig.cache
