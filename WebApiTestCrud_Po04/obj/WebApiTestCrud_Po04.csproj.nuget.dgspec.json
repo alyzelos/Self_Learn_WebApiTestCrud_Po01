@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj": {}
+    "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj": {
+    "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj",
+        "projectUniqueName": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj",
         "projectName": "WebApiTestCrud_Po04",
-        "projectPath": "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj",
-        "packagesPath": "C:\\Users\\Ptrutucea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\obj\\",
+        "projectPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\WebApiTestCrud_Po04.csproj",
+        "packagesPath": "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po04\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ptrutucea\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Cosmin-AlinPOJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,12 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

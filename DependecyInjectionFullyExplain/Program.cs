@@ -19,7 +19,7 @@ namespace DependecyInjectionFullyExplain
             {
                 this.hello = hello;
             }
-            public void Print()
+            public void Print() 
             {
                 this.hello.Print();
             }

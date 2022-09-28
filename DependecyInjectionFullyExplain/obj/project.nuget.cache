@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yZneSANRek1oZfMsYvoGJ+uKut49Iz4NJ2cG/2y/WWFdloF2VrNGbqqB9QAx3pF00CO+/+ikL27wS0PIPjwwYg==",
+  "dgSpecHash": "C/4wBC6NMNN58a6KHUF1/S1On7BuWsRRakCihg0r0/SU+PK3VSoGHvcpvb9YRpnBqvT8bNo/k5qJjhIPGi6b/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ptrutucea\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\DependecyInjectionFullyExplain\\DependecyInjectionFullyExplain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Ptrutucea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\DependecyInjectionFullyExplain\\DependecyInjectionFullyExplain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
