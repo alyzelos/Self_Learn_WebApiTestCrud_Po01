@@ -26,7 +26,7 @@ namespace WebApiTestCrud_Po07.Controllers
             return Ok(employeesFromDb);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("[id:int]")]
         public IActionResult Get(int id)
         {
             var employeesFromDb = _employeesService.GetEmployeesFromDb().FirstOrDefault(s => s.ID == id);
