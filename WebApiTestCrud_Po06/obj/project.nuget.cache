@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1P+nBZynOwg4xsEjZ8P9HxGpOxZ3hArGjZfCJfvrypHQaVBIWCwPNw5+pdiyYRWg+nNk8az60ApdczV2lb1aog==",
+  "dgSpecHash": "MJ7mzHWgN4898h5zCZSAp9CLqnIWiwGRzlog5FpChvqXLMuKue38zdTV+WDH0PwvI4818seRjloObCbJzBYmkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj",
+  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

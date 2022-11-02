@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0+MlPVtF0CYaphLmLkQQDX0Xyk85K5BNVyW5cVvIqLgi9Ukv+g4SFqD/uUKg4fZLXePHxv7QGNhcne05f8XqLg==",
+  "dgSpecHash": "d35Mw15V2UlOttNgtS4EXUfG1cZBGv7JsdluJ/2ShScbYUGH9PrZ0D76ZYieLg0GsNUty84xcBqKYrJUeI4MKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po02\\WebApiTestCrud_Po02.csproj",
+  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po02\\WebApiTestCrud_Po02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",

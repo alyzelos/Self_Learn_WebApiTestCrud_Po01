@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RxzDB4/9p/9JCTYxrxU1GkufakostU3eRNvQODp8x0eBvO1ERu0J69u+ZUEa6LcKCHhILw8ekr02xD+6XmMNuw==",
+  "dgSpecHash": "yFLV56kuy3tOHCVzGwLzn4YhFbFB8U5WeyZ9gcwpeRRkMlcLzF66moNEcMqf7T2cwpArmcLk8xsCVqu8VECVvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po07\\WebApiTestCrud_Po07.csproj",
+  "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po07\\WebApiTestCrud_Po07.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

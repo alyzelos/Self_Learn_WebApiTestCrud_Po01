@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj": {}
+    "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj": {
+    "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj",
+        "projectUniqueName": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj",
         "projectName": "WebApiTestCrud_Po06",
-        "projectPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj",
+        "projectPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\WebApiTestCrud_Po06.csproj",
         "packagesPath": "C:\\Users\\Cosmin-AlinPOJAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\WebApiTestCrud_Po01\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\obj\\",
+        "outputPath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po06\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cosmin-AlinPOJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
