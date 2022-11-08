@@ -7,5 +7,6 @@ namespace WebApiTestCrud_Po07.Controllers
 {
     public class ANewController
     {
+
     }
 }
