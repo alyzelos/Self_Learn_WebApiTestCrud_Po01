@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d35Mw15V2UlOttNgtS4EXUfG1cZBGv7JsdluJ/2ShScbYUGH9PrZ0D76ZYieLg0GsNUty84xcBqKYrJUeI4MKA==",
+  "dgSpecHash": "YfanPClDQ7kvcYAlMMVzDr7JgX1bg67yb+AWZHymX5EFaDsc7wosDGurlluOtl/b8a8iYEny1tk7LsweeYyxmg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cosmin-AlinPOJAR\\source\\repos\\Self_Learn_WebApiTestCrud_Po01\\WebApiTestCrud_Po02\\WebApiTestCrud_Po02.csproj",
   "expectedPackageFiles": [
@@ -142,7 +142,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net5.0"
